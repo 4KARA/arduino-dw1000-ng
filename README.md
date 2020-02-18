@@ -71,6 +71,15 @@ FemtoBeacon ESP32 LPS (ESP32-PICO-D4 chip, HSPI peripheral)
   <li>GPIO 18 --> CS (DECAWAVE)</li>
 </ul>
 
+Arduino M0 Pro (ATSAMD21G18-32bit, ICSP header)
+<ul>
+  <li> 2-13 --> IRQ </li>
+  <li> 2-13 --> CS (have to define in the code)</li>
+  <li> ICSP MOSI --> MOSI </li>
+  <li> ICSP MISO --> MISO </li>
+  <li> ICSP CLK --> CLK </li>
+</ul>
+
 Installation
 ------------
 **Requires c++11 support**, Arduino IDE >= 1.6.6 support c++11.
